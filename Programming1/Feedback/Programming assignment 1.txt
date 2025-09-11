@@ -1,5 +1,3 @@
-Hello Aaron,
-
 Could you please talk to me about your code for assignment 1. 
 I could not see all the files where you attempted:
 Q1, Q4-9 and Q8 - 11 in the book pg 174.
