@@ -1,0 +1,10 @@
+For program 3, you don't need the 'for i in range(1):' on line 6. 
+
+The for loop through the name will take each letter one at a time. 
+
+Your code works perfectly well, it just isn't required. 
+
+
+Can you do program 5. 
+
+Apart from that, your code is very good.
