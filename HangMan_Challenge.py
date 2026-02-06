@@ -73,7 +73,7 @@ while Lives > 0:
         print(Wlst2)
         if Valid_Guess == False:
             Lives = Lives - 1
-            print("Incorrect Word")
+            print("Incorrect Word Lives Remaining", Lives)
             print(Lives)
         if Lives == 6:
             print(HANGMANPICS[1])
@@ -99,3 +99,4 @@ while Lives > 0:
 
         
     
+
