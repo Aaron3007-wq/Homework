@@ -1,15 +1,22 @@
 #Author:Aaron Mclynn
 #Date:9/9/26
 #Desc:Selection sort
-lst = [2,4,5]
+lst = [7,67,2,9,36]
 
 
-for i in range (0,len(lst)-1):
-    i == lst[0]
-    for j in range (i+1(len(lst)-1)):
-        if j < i:
-            j == i
-        else:
-            i == lst[0]
-        print(lst)
+for i in range (len(lst)):
+    current_min = i
+    
+    for j in range (i+1,len(lst)):
+        if lst[j] < lst[current_min]:
+            previous = lst[current_min]
+            lst.insert(i,lst[j])
+            lst.pop(i+1)
+            lst.insert(j,previous)
+            lst.pop(j+1)
+            
+print(lst) 
+            
         
+
+
